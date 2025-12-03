@@ -89,6 +89,7 @@ This makes the project particularly relevant for:
 ---
 
 ## 4. Repository Structure
+```text
 ├── notebooks/
 │   ├── 01_risk_datasampling_models.ipynb
 │   │   # Baseline models + per-class metrics
@@ -103,6 +104,7 @@ This makes the project particularly relevant for:
 │
 ├── requirements.txt
 └── README.md
+
 
 ## 5. Modelling and Evaluation
 
@@ -264,4 +266,5 @@ Based on the experiments:
 - SHAP should be used **alongside** metrics to validate that:
   - The model relies on **sensible features**, and
   - Those features remain **consistently important** across class distributions.
+
 
